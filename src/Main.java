@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        PrimeSetBits primeSetBits = new PrimeSetBits();
-        System.out.println(primeSetBits.countPrimeSetBits(6,10));
+        BinaryGap binaryGap = new BinaryGap();
+        System.out.println(binaryGap.binaryGap(5));
+//        PrimeSetBits primeSetBits = new PrimeSetBits();
+//        System.out.println(primeSetBits.countPrimeSetBits(6,10));
 //        ReverseInteger reverseInteger = new ReverseInteger();
 //        System.out.println(reverseInteger.reverse(1000000003));
 //        LongestSubstring longestSubstring = new LongestSubstring();
