@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        BinaryGap binaryGap = new BinaryGap();
-        System.out.println(binaryGap.binaryGap(5));
+        StringContainBinaryCode stringContainBinaryCode = new StringContainBinaryCode();
+        System.out.println(stringContainBinaryCode.hasAllCodes("0110",2));
+//        BinaryGap binaryGap = new BinaryGap();
+//        System.out.println(binaryGap.binaryGap(5));
 //        PrimeSetBits primeSetBits = new PrimeSetBits();
 //        System.out.println(primeSetBits.countPrimeSetBits(6,10));
 //        ReverseInteger reverseInteger = new ReverseInteger();
