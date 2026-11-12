@@ -3,8 +3,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        SortIntegersByNumberOfOne sortIntegersByNumberOfOne = new SortIntegersByNumberOfOne();
-        System.out.println(Arrays.toString(sortIntegersByNumberOfOne.sortByBits(new int[]{0,1,2,3,4,5,6,7,8})));
+        NumberSteps numberSteps = new NumberSteps();
+        System.out.println(numberSteps.numSteps("1111110011101010110011100100101110010100101110111010111110110010"));
+//        SortIntegersByNumberOfOne sortIntegersByNumberOfOne = new SortIntegersByNumberOfOne();
+//        System.out.println(Arrays.toString(sortIntegersByNumberOfOne.sortByBits(new int[]{0,1,2,3,4,5,6,7,8})));
 //        PlusOne plusOne = new PlusOne();
 //        System.out.println(Arrays.toString(plusOne.plusOne(new int[]{1,2,3,4})));
 //        StringContainBinaryCode stringContainBinaryCode = new StringContainBinaryCode();
